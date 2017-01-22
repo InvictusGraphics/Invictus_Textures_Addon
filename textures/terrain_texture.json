@@ -252,6 +252,15 @@
     "wood_oak": {
       "textures": "textures/blocks/planks_oak"
     },
+    "wood_oak_one": {
+      "textures": "textures/blocks/slab/oak_top"
+    },
+    "wood_oak_two": {
+      "textures": "textures/blocks/slab/oak"
+    },
+    "wood_oak_four": {
+      "textures": "textures/blocks/stair/oak"
+    },
     "button_oak": {
       "textures": "textures/blocks/button/oak"
     },
