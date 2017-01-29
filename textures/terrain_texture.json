@@ -117,8 +117,26 @@
     "button_oak": {
       "textures": "textures/blocks/button/oak"
     },
+    "pressure_plate_stone": {
+      "textures": "textures/blocks/pressure_plate/stone"
+    },
+    "pressure_plate_wood": {
+      "textures": "textures/blocks/pressure_plate/oak"
+    },
+    "pressure_plate_gold": {
+      "textures": "textures/blocks/pressure_plate/gold"
+    },
+    "pressure_plate_iron": {
+      "textures": "textures/blocks/pressure_plate/iron"
+    },
     "cobblestone": {
       "textures": "textures/blocks/cobblestone/1"
+    },
+    "cobblestone_brick": {
+      "textures": "textures/blocks/slab/cobblestone_top"
+    },
+    "cobblestone_slab_side": {
+      "textures": "textures/blocks/slab/cobblestone"
     },
     "cobblestone_mossy": {
       "textures": "textures/blocks/cobblestone_mossy"
@@ -939,6 +957,12 @@
     },
     "nether_brick": {
       "textures": "textures/blocks/nether_brick"
+    },
+    "nether_brick_fence_top": {
+      "textures": "textures/blocks/fence/fence_nether_brick_top"
+    },
+    "nether_brick_fence_side": {
+      "textures": "textures/blocks/fence/fence_nether_brick_side"
     },
     "nether_wart": {
       "textures": [

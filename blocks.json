@@ -297,7 +297,7 @@
 	},
 	"stone_stairs" : { 
 		"blockshape" : "stairs",
-		"textures" : "cobblestone"
+		"textures" : { "up" : "cobblestone_brick", "down" : "cobblestone_brick", "side" : "cobblestone_slab_side"}
 	},
 	"wall_sign" : { 
 		"blockshape" : "invisible",
@@ -310,7 +310,7 @@
 		"sound": "wood"
 	},
 	"stone_pressure_plate" : { 
-		"textures" : "stone",
+		"textures" : "pressure_plate_stone",
 		"sound": "stone"
 	},
 	"iron_door" : { 
@@ -319,7 +319,7 @@
 		"sound": "metal"
 	},
 	"wooden_pressure_plate" : { 
-		"textures" : "planks",
+		"textures" : "pressure_plate_wood",
 		"sound": "wood"
 	},
 	"redstone_ore" : { 
@@ -383,7 +383,7 @@
 	},
 	"nether_brick_fence" : { 
 		"blockshape" : "fence",
-		"textures" : "nether_brick",
+		"textures" : { "up" : "nether_brick_fence_top", "down" : "nether_brick_fence_top", "side" : "nether_brick_fence_side"},
 		"sound": "stone"
 	},
 	"pumpkin" : { 
@@ -648,11 +648,11 @@
 		"sound": "wood"
 	},
 	"light_weighted_pressure_plate" : { 
-		"textures" : "gold_block",
+		"textures" : "pressure_plate_gold",
 		"sound": "wood"
 	},
 	"heavy_weighted_pressure_plate" : { 
-		"textures" : "iron_block",
+		"textures" : "pressure_plate_iron",
 		"sound": "wood"
 	},
 	"unpowered_comparator" : { 
