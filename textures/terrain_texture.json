@@ -1,5 +1,5 @@
 {
-  "resource_pack_name": "vanilla",
+  "resource_pack_name": "invictus",
   "texture_name": "atlas.terrain",
   "padding": 8,
   "num_mip_levels": 3,
@@ -102,11 +102,11 @@
     },
     "stone": {
       "textures": [
-        "textures/blocks/stone",
-        "textures/blocks/stone_granite",
+        "textures/blocks/stone/1",
+        "textures/blocks/stone_granite/1",
         "textures/blocks/stone_granite_smooth",
-        "textures/blocks/stone_diorite",
-        "textures/blocks/stone_diorite_smooth",
+        "textures/blocks/stone_diorite/1",
+        "textures/blocks/stone_diorite/smooth_1",
         "textures/blocks/stone_andesite",
         "textures/blocks/stone_andesite_smooth"
       ]
@@ -118,14 +118,14 @@
       "textures": "textures/blocks/button/oak"
     },
     "cobblestone": {
-      "textures": "textures/blocks/cobblestone"
+      "textures": "textures/blocks/cobblestone/1"
     },
     "cobblestone_mossy": {
       "textures": "textures/blocks/cobblestone_mossy"
     },
     "cobblestone_wall": {
       "textures": [
-        "textures/blocks/cobblestone",
+        "textures/blocks/slab/cobblestone_top",
         "textures/blocks/cobblestone_mossy"
       ]
     },
@@ -170,15 +170,15 @@
     "sandstone_top": {
       "textures": [
         "textures/blocks/sandstone_top",
-        "textures/blocks/sandstone_top",
-        "textures/blocks/sandstone_top"
+        "textures/blocks/sandstone_smooth",
+        "textures/blocks/sandstone_smooth"
       ]
     },
     "sandstone_bottom": {
       "textures": [
         "textures/blocks/sandstone_bottom",
-        "textures/blocks/sandstone_bottom",
-        "textures/blocks/sandstone_bottom"
+        "textures/blocks/sandstone_smooth",
+        "textures/blocks/sandstone_smooth"
       ]
     },
     "sandstone_side": {
@@ -191,15 +191,15 @@
     "redsandstone_top": {
       "textures": [
         "textures/blocks/red_sandstone_top",
-        "textures/blocks/red_sandstone_top",
-        "textures/blocks/red_sandstone_top"
+        "textures/blocks/red_sandstone_smooth",
+        "textures/blocks/red_sandstone_smooth"
       ]
     },
     "redsandstone_bottom": {
       "textures": [
         "textures/blocks/red_sandstone_bottom",
-        "textures/blocks/red_sandstone_bottom",
-        "textures/blocks/red_sandstone_bottom"
+        "textures/blocks/red_sandstone_smooth",
+        "textures/blocks/red_sandstone_smooth"
       ]
     },
     "redsandstone_side": {
@@ -213,7 +213,7 @@
       "textures": "textures/blocks/red_sandstone_normal"
     },
     "gravel": {
-      "textures": "textures/blocks/gravel"
+      "textures": "textures/blocks/gravel/1"
     },
     "dirt": {
       "textures": [
@@ -252,14 +252,109 @@
     "wood_oak": {
       "textures": "textures/blocks/planks_oak"
     },
-    "wood_oak_one": {
-      "textures": "textures/blocks/slab/oak_top"
+    "fence_wood": {
+      "textures": [
+        "textures/blocks/fence/fence_oak_side",
+        "textures/blocks/fence/fence_spruce_side",
+        "textures/blocks/fence/fence_birch_side",
+        "textures/blocks/fence/fence_jungle_side",
+        "textures/blocks/fence/fence_acacia_side",
+        "textures/blocks/fence/fence_dark_oak_side"
+      ]
     },
-    "wood_oak_two": {
-      "textures": "textures/blocks/slab/oak"
+    "fence_wood_top": {
+      "textures": [
+        "textures/blocks/fence/fence_oak_top",
+        "textures/blocks/fence/fence_spruce_top",
+        "textures/blocks/fence/fence_birch_top",
+        "textures/blocks/fence/fence_jungle_top",
+        "textures/blocks/fence/fence_acacia_top",
+        "textures/blocks/fence/fence_dark_oak_top"
+      ]
     },
-    "wood_oak_four": {
-      "textures": "textures/blocks/stair/oak"
+    "gate_oak": {
+      "textures": "textures/blocks/fence/fence_oak_gate"
+    },
+    "gate_acacia": {
+      "textures": "textures/blocks/fence/fence_acacia_gate"
+    },
+    "gate_birch": {
+      "textures": "textures/blocks/fence/fence_birch_gate"
+    },
+    "gate_big_oak": {
+      "textures": "textures/blocks/fence/fence_dark_oak_gate"
+    },
+    "gate_jungle": {
+      "textures": "textures/blocks/fence/fence_jungle_gate"
+    },
+    "gate_spruce": {
+      "textures": "textures/blocks/fence/fence_spruce_gate"
+    },
+    "wood_slab_single": {
+      "textures": [
+        "textures/blocks/slab/oak_top",
+        "textures/blocks/slab/spruce_top",
+        "textures/blocks/slab/birch_top",
+        "textures/blocks/planks_jungle",
+        "textures/blocks/slab/acacia_top",
+        "textures/blocks/slab/big_oak"
+      ]
+    },
+    "wood_slab_double": {
+      "textures": [
+        "textures/blocks/slab/oak",
+        "textures/blocks/slab/spruce",
+        "textures/blocks/slab/birch",
+        "textures/blocks/planks_jungle",
+        "textures/blocks/slab/acacia",
+        "textures/blocks/planks_big_oak"
+      ]
+    },
+    "wood_slab_quadruple": {
+      "textures": [
+        "textures/blocks/stair/oak",
+        "textures/blocks/stair/spruce",
+        "textures/blocks/stair/birch",
+        "textures/blocks/planks_jungle",
+        "textures/blocks/stair/acacia",
+        "textures/blocks/planks_big_oak"
+      ]
+    },
+    "spruce_single": {
+      "textures": "textures/blocks/slab/spruce_top"
+    },
+    "spruce_double": {
+      "textures": "textures/blocks/slab/spruce"
+    },
+    "spruce_quadruple": {
+      "textures": "textures/blocks/stair/spruce"
+    },
+    "birch_single": {
+      "textures": "textures/blocks/slab/birch_top"
+    },
+    "birch_double": {
+      "textures": "textures/blocks/slab/birch"
+    },
+    "birch_quadruple": {
+      "textures": "textures/blocks/stair/birch"
+    },
+    "acacia_single": {
+      "textures": "textures/blocks/slab/acacia_top"
+    },
+    "acacia_double": {
+      "textures": "textures/blocks/slab/acacia"
+    },
+    "acacia_quadruple": {
+      "textures": "textures/blocks/stair/acacia"
+    },
+    "big_oak_single": {
+      "textures": "textures/blocks/slab/big_oak"
+    },
+    "big_oak_double": {
+      "textures": "textures/blocks/planks_big_oak"
+    },
+    "big_oak_quadruple": {
+      "textures": "textures/blocks/planks_big_oak"
     },
     "button_oak": {
       "textures": "textures/blocks/button/oak"
@@ -286,36 +381,36 @@
       "textures": [
         "textures/blocks/stone_slab_top",
         "textures/blocks/sandstone_top",
-        "textures/blocks/planks_oak",
-        "textures/blocks/cobblestone",
-        "textures/blocks/brick",
-        "textures/blocks/stonebrick",
+        "textures/blocks/slab/oak_top",
+        "textures/blocks/slab/cobblestone_top",
+        "textures/blocks/slab/brick_top",
+        "textures/blocks/slab/stonebrick",
         "textures/blocks/quartz_block_bottom",
-        "textures/blocks/nether_brick"
+        "textures/blocks/slab/nether_brick_top"
       ]
     },
     "stone_slab_bottom": {
       "textures": [
         "textures/blocks/stone_slab_top",
         "textures/blocks/sandstone_top",
-        "textures/blocks/planks_oak",
-        "textures/blocks/cobblestone",
-        "textures/blocks/brick",
-        "textures/blocks/stonebrick",
+        "textures/blocks/slab/oak_top",
+        "textures/blocks/slab/cobblestone_top",
+        "textures/blocks/slab/brick_top",
+        "textures/blocks/slab/stonebrick",
         "textures/blocks/quartz_block_bottom",
-        "textures/blocks/nether_brick"
+        "textures/blocks/slab/nether_brick_top"
       ]
     },
     "stone_slab_side": {
       "textures": [
         "textures/blocks/stone_slab_side",
-        "textures/blocks/sandstone_normal",
-        "textures/blocks/planks_oak",
-        "textures/blocks/cobblestone",
-        "textures/blocks/brick",
+        "textures/blocks/slab/sandstone",
+        "textures/blocks/slab/oak",
+        "textures/blocks/slab/cobblestone",
+        "textures/blocks/slab/brick",
         "textures/blocks/stonebrick",
         "textures/blocks/quartz_block_bottom",
-        "textures/blocks/nether_brick"
+        "textures/blocks/slab/nether_brick"
       ]
     },
     "stone_slab_top_2": {
@@ -332,7 +427,7 @@
     },
     "stone_slab_side_2": {
       "textures": [
-        "textures/blocks/red_sandstone_normal",
+        "textures/blocks/slab/red_sandstone",
         "textures/blocks/red_sandstone_top"
       ]
     },
@@ -355,7 +450,7 @@
       "textures": "textures/blocks/tnt_side"
     },
     "bookshelf_top": {
-      "textures": "textures/blocks/planks_oak"
+      "textures": "textures/blocks/slab/oak_top"
     },
     "bookshelf": {
       "textures": [
@@ -368,19 +463,19 @@
       "textures": "textures/blocks/web"
     },
     "yellow_flower": {
-      "textures": "textures/blocks/flower_dandelion"
+      "textures": "textures/blocks/flower/dandelion"
     },
     "red_flower": {
       "textures": [
-        "textures/blocks/flower_rose",
-        "textures/blocks/flower_blue_orchid",
-        "textures/blocks/flower_allium",
-        "textures/blocks/flower_houstonia",
-        "textures/blocks/flower_tulip_red",
-        "textures/blocks/flower_tulip_orange",
-        "textures/blocks/flower_tulip_white",
-        "textures/blocks/flower_tulip_pink",
-        "textures/blocks/flower_oxeye_daisy"
+        "textures/blocks/flower/rose",
+        "textures/blocks/flower/blue_orchid_1",
+        "textures/blocks/flower/allium",
+        "textures/blocks/flower/houstonia",
+        "textures/blocks/flower/tulip_red",
+        "textures/blocks/flower/tulip_orange",
+        "textures/blocks/flower/tulip_white",
+        "textures/blocks/flower/tulip_pink",
+        "textures/blocks/flower/oxeye_daisy"
       ]
     },
     "double_plant_bottom": {
@@ -421,12 +516,12 @@
     },
     "sapling": {
       "textures": [
-        "textures/blocks/sapling_oak",
-        "textures/blocks/sapling_spruce",
-        "textures/blocks/sapling_birch",
-        "textures/blocks/sapling_jungle",
-        "textures/blocks/sapling_acacia",
-        "textures/blocks/sapling_roofed_oak"
+        "textures/blocks/sapling/oak",
+        "textures/blocks/sapling/spruce",
+        "textures/blocks/sapling/birch",
+        "textures/blocks/sapling/jungle",
+        "textures/blocks/sapling/acacia",
+        "textures/blocks/sapling/roofed_oak"
       ]
     },
     "log_top": {
@@ -472,7 +567,7 @@
       "textures": "textures/blocks/gold_block"
     },
     "diamond_block": {
-      "textures": "textures/blocks/diamond_block"
+      "textures": "textures/blocks/diamond_block/1"
     },
     "coal_block": {
       "textures": "textures/blocks/coal_block"
@@ -569,7 +664,7 @@
       "textures": "textures/blocks/crafting_table_top"
     },
     "crafting_table_bottom": {
-      "textures": "textures/blocks/planks_oak"
+      "textures": "textures/blocks/crafting_table_bottom"
     },
     "crafting_table_side": {
       "textures": "textures/blocks/crafting_table_side"
@@ -732,7 +827,7 @@
     "mycelium_side": {
       "textures": [
         "textures/blocks/mycelium_side",
-        "textures/blocks/grass_side_snowed"
+        "textures/blocks/mycelium_side_snowed"
       ]
     },
     "torch_on": {
@@ -787,6 +882,12 @@
         "textures/blocks/farmland_dry"
       ]
     },
+    "farmland_side": {
+      "textures": [
+        "textures/blocks/farmland_wet_side",
+        "textures/blocks/farmland_dry_side"
+      ]
+    },
     "wheat": {
       "textures": [
         "textures/blocks/wheat_stage_0",
@@ -813,7 +914,7 @@
       "textures": "textures/blocks/lever"
     },
     "lever_particle": {
-      "textures": "textures/blocks/cobblestone"
+      "textures": "textures/blocks/lever_base"
     },
     "pumpkin_top": {
       "textures": [

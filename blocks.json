@@ -235,7 +235,7 @@
 	},
 	"oak_stairs" : { 
 		"blockshape" : "stairs",
-		"textures" : { "up" : "wood_oak_one", "down" : "wood_oak_one", "side" : "wood_oak_two"}
+		"textures" : { "up" : "wood_slab_single", "down" : "wood_slab_single", "side" : "wood_slab_double" }
 	},
 	"chest" : { 
 		"blockshape" : "chest", 
@@ -264,7 +264,7 @@
 		"sound": "grass"
 	},
 	"farmland" : { 
-		"textures" : { "up" : "farmland", "down" : "dirt", "side" : "dirt"},
+		"textures" : { "up" : "farmland", "down" : "dirt", "side" : "farmland_side"},
 		"sound": "gravel"
 	},
 	"furnace" : { 
@@ -378,7 +378,7 @@
 	},
 	"fence" : { 
 		"blockshape" : "fence",
-		"textures" : "planks",
+		"textures" : { "up" : "fence_wood_top", "down" : "fence_wood_top", "side" : "fence_wood"},
 		"sound": "wood"
 	},
 	"nether_brick_fence" : { 
@@ -482,7 +482,7 @@
 	},
 	"fence_gate" : { 
 		"blockshape" : "fence_gate",
-		"textures" : "wood_oak",
+		"textures" : "gate_oak",
 		"sound": "wood"
 	},
 	"brick_stairs" : { 
@@ -551,11 +551,11 @@
 	},
 	"spruce_stairs" : { 
 		"blockshape" : "stairs",
-		"textures" : "wood_spruce"
+		"textures" : { "up" : "spruce_single", "down" : "spruce_single", "side" : "spruce_double" }
 	},
 	"birch_stairs" : { 
 		"blockshape" : "stairs",
-		"textures" : "wood_birch"
+		"textures" : { "up" : "birch_single", "down" : "birch_single", "side" : "birch_double" }
 	},
   "jungle_stairs": {
     "blockshape": "stairs",
@@ -718,12 +718,12 @@
 		"sound": "stone"
 	},
 	"double_wooden_slab" : { 
-		"textures" : { "up" : "wood_oak_one", "down" : "wood_oak_one", "side" : "wood_oak_two"},
+		"textures" : { "up" : "wood_slab_single", "down" : "wood_slab_single", "side" : "wood_slab_double"},
 		"sound": "wood"
 	},
 	"wooden_slab" : { 
 		"blockshape" : "block_half",
-		"textures" : { "up" : "wood_oak_one", "down" : "wood_oak_one", "side" : "wood_oak_two"},
+		"textures" : { "up" : "wood_slab_single", "down" : "wood_slab_single", "side" : "wood_slab_double"},
 		"sound": "wood"
 	},
 	"stained_hardened_clay" : { 
@@ -745,11 +745,11 @@
 	},
 	"acacia_stairs" : { 
 		"blockshape" : "stairs",
-		"textures" : "wood_acacia"
+		"textures" : { "up" : "acacia_single", "down" : "acacia_single", "side" : "acacia_double" }
 	},
 	"dark_oak_stairs" : { 
 		"blockshape" : "stairs",
-		"textures" : "wood_big_oak"
+		"textures" : { "up" : "big_oak_single", "down" : "big_oak_single", "side" : "big_oak_double" }
 	},
 	"slime" : { 
 		"blockshape" : "slime_block",
@@ -820,27 +820,27 @@
 	},
 	"spruce_fence_gate" : { 
 		"blockshape" : "fence_gate", 
-		"textures" : "wood_spruce",
+		"textures" : "gate_spruce",
 		"sound": "wood"
 	},
 	"birch_fence_gate" : { 
 		"blockshape" : "fence_gate",
-		"textures" : "wood_birch",
+		"textures" : "gate_birch",
 		"sound": "wood"
 	},
 	"jungle_fence_gate" : { 
 		"blockshape" : "fence_gate", 
-		"textures" : "wood_jungle", 
+		"textures" : "gate_jungle", 
 		"sound": "wood"
 	},
 	"dark_oak_fence_gate" : { 
 		"blockshape" : "fence_gate",
-		"textures" : "wood_big_oak", 
+		"textures" : "gate_big_oak", 
 		"sound": "wood"
 	},
 	"acacia_fence_gate" : { 
 		"blockshape" : "fence_gate", 
-		"textures" : "wood_acacia", 
+		"textures" : "gate_acacia", 
 		"sound": "wood"
 	},
 	"spruce_door" : { 
